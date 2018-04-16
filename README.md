@@ -3,7 +3,7 @@ Prange (Py 3.6)<br>
 Parallel for-loop written in raw Python.<br>
 It's not the best, more of a example on how you could do such a thing.<br>
 <h1>Dependencies</h1>
-* msgpack
+..* msgpack
 <h1>Usage</h1>
 Label functions you want to use in your loop with @context.<br>
 If you need to collect the results at the end call collect().<br>

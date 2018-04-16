@@ -1,6 +1,5 @@
 import os
 import time
-import psutil
 import sys
 import signal
 import msgpack
