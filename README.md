@@ -33,10 +33,10 @@ from each process.
 So whatever msgpack supports, this should as well.<br>
 You can always define your own msgpack serialization.<br>
 <h1>How does this work</h1>
-prange() forks off a child process for each x in the range you specify to it.<br>
-Anything written with the for-loops block will be executed in a child process.<br>
-@context ignores the main process so that no more than x processes are forked<br>
-and it can block to wait for prange() to return and reap the children using signal.<br>
-
+- prange() forks off a child process for each x in the range you specify to it.<br>
+- Anything written within the for-loops block will be executed in a child process.<br>
+- @context ignores the main process so that no more than x processes are forked<br>
+  and it can block to wait for prange() to return and reap the children using signal.<br>
+<br>
 This library is essentially super-syntactical sugar to make parallel loops easier<br>
 to create.
