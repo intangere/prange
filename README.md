@@ -11,7 +11,7 @@ If you need to collect the results at the end call collect().<br>
 ```
 from prange import Prange, context, collect
 from random import randint
-import sys, os, time
+import time
 
 @context
 def SyncroFunc(r):
